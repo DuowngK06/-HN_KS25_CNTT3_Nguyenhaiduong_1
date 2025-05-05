@@ -1,0 +1,60 @@
+ body {
+     margin: 0;
+     padding: 0;
+     background: #0e1a2b;
+     color: white;
+     font-family: Arial, sans-serif;
+ }
+
+ .footer {
+     padding: 30px;
+     max-width: 1200px;
+     margin: 0 auto;
+ }
+
+ .footer-top {
+     display: grid;
+     grid-template-columns: 1fr 1fr;
+     gap: 40px;
+     margin-bottom: 30px;
+ }
+
+ .logo h2 {
+     margin: 0 0 10px;
+     color: white;
+ }
+
+ .logo p {
+     margin: 10px 0;
+ }
+
+ .logo nav a {
+     margin-right: 15px;
+     color: white;
+     text-decoration: none;
+ }
+
+ .locations {
+     display: grid;
+     grid-template-columns: repeat(3, 1fr);
+     gap: 20px;
+ }
+
+ .locations div h3 {
+     margin: 5px;
+ }
+
+ .footer-bottom {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     border-top: 1px solid #1f2e43;
+     padding: 15px 0 0;
+ }
+
+ .socials a {
+     margin-left: 10px;
+     color: white;
+     text-decoration: none;
+     font-size: 18px;
+ }

@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #f9fafb;
+    color: #333;
+}
+
+.container {
+    width: 90%;
+    margin: 30px auto;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.05);
+    padding: 20px;
+}
+
+h2 {
+    margin-top: 0;
+    color: #2d3748;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+th,
+td {
+    padding: 10px 15px;
+    border-bottom: 1px solid #e2e8f0;
+    text-align: left;
+}
+
+th {
+    background: #edf2f7;
+}
+
+.badge {
+    display: inline-block;
+    background: #edf2ff;
+    color: #2b6cb0;
+    border-radius: 12px;
+    padding: 3px 10px;
+    font-size: 12px;
+    margin-right: 5px;
+}
+
+.label {
+    background: #fed7d7;
+    color: #c53030;
+}
+
+.actions {
+    display: flex;
+    gap: 10px;
+}
+
+.btn {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-edit {
+    background: #3182ce;
+    color: white;
+}
+
+.btn-delete {
+    background: #e53e3e;
+    color: white;
+}
+
+</style>
